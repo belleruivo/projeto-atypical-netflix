@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./src/css/reset.css">
+        <link rel="stylesheet" href="./src/css/estilos.css">
+        <link rel="stylesheet" href="./src/css/responsivo.css">
+        <title>Atypical - Série</title>
+        <link rel="shortcut icon" href="./src/images/atypical_pinguim.png" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&family=Lato&family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section class="fundo-video">
+            <video class="video" autoplay loop muted>
+                <source src="./src/video/atypical.mp4" type="video/mp4">
+            </video>
+        </section>
+        <header class="cabecalho">
+            <a href="#">
+                <img class="logo" src="./src/images/atypical_pinguim.png" alt="Logo pinguim da série Atypical">
+            </a>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Detalhes</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="container"> 
+            <section class="informacoes">
+                <img class="imagem-titulo" src="./src/images/atypical_titulo.png" alt="Imagem do título da série Atypical">
+                <p class="descricao">
+                    Em Atypical, Sam Gardner é um jovem autista de 18 anos que está em busca de sua própria independência. Nesta jornada repleta de desafios ele e sua família aprendem a lidar com as dificuldades da vida e descobrem que o significado de "ser um pessoa normal" não é tão óbvio assim.
+                </p>
+                <button class="botao-trailer" onclick="">
+                    Veja o trailer! 
+                </button>
+            </section>
+            <img class="sam-gardner" src="./src/images/atypical-netflix.jpg" alt="Imagem do Sam Gardner">
+            <section class="modal">
+                <section class="conteudo-modal">
+                    <span class="fechar-modal">X</span>
+                    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/8_FnsL26qWs" title="Trailer oficial" frameborder="1" allow="accelorometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </section>
+            </section>
+        </main>
+        <script src="./src/js/index.js"></script>
+    </body>
+</html> 
